@@ -1,37 +1,31 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+README
+Instrucciones para levantar el proyecto
+Para levantar el proyecto, sigue estos pasos:
 
-## Getting Started
+Clona este repositorio en tu máquina local:
 
-First, run the development server:
+git clone https://github.com/oswaldo-herrera/testAm.git
+Navega a la carpeta del proyecto:
 
-```bash
+cd testAm
+Instala las dependencias necesarias:
+
+npm install
+Levanta el servidor de desarrollo:
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Abre tu navegador y accede a http://localhost:3000.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+¿Qué es lo que más te gustó de tu desarrollo?
+Lo que más me gustó fue la implementación del componente para enlistar las cards de cada personaje . Fue un desafío técnico interesante y me permitió aprender más.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+Si hubieras tenido más tiempo, ¿qué hubieras mejorado o qué más hubieras hecho?
+Si hubiera tenido más tiempo, habría optimizado la vista de las cards crear un diseño mas moderno y con mas efectos. También hubiera añadido pruebas unitarias y mejorado la UI para hacerla más intuitiva.
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+Descripción de un pain point o bug
+Durante el desarrollo, me encontré con un problema relacionado con la conexion con el json-server no aceptaba la url inicial.  Lo solucioné mediante una implementacion para el reconociemnto del id como identificador y se pudo solucionar .
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
 ## Deploy on Vercel
 
